@@ -1198,6 +1198,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@reach/alert@npm:^0.7.4":
+  version: 0.7.4
+  resolution: "@reach/alert@npm:0.7.4"
+  dependencies:
+    "@reach/utils": ^0.7.4
+    "@reach/visually-hidden": ^0.7.4
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^16.8.0
+    react-dom: ^16.8.0
+  checksum: 3d990ca75eabaf19f44f23e03ed86bb544e17a8fb0f479a6e629bd7a2d13c1d0e1aeaf3664dc788516d4968d38e9b5cdddd49d24515b1c3767ca2aa8fb9d08d9
+  languageName: node
+  linkType: hard
+
+"@reach/utils@npm:^0.7.4":
+  version: 0.7.4
+  resolution: "@reach/utils@npm:0.7.4"
+  peerDependencies:
+    react: ^16.8.0
+    react-dom: ^16.8.0
+  checksum: 1a01d74fc148197cf2972b9d46e56743b2b864de8cee345c4e2e736c1a7a0ddeacaf4f754f3ab179fef2b4edabe62fa5dcf186c2cc0ed41d62988b58bfeb21f9
+  languageName: node
+  linkType: hard
+
+"@reach/visually-hidden@npm:^0.7.4":
+  version: 0.7.4
+  resolution: "@reach/visually-hidden@npm:0.7.4"
+  peerDependencies:
+    react: ^16.8.0
+    react-dom: ^16.8.0
+  checksum: ca63c897e850d6454dcf95108ddbd152605900430901d0680945c99e626402117cb2b270cc452bdc869672994619e678c5487926dc09b3d5b556dd7dfbb111d6
+  languageName: node
+  linkType: hard
+
 "@webassemblyjs/ast@npm:1.8.5":
   version: 1.8.5
   resolution: "@webassemblyjs/ast@npm:1.8.5"
@@ -6281,7 +6315,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.7.2, prop-types@npm:^15.6.2":
+"prop-types@npm:15.7.2, prop-types@npm:^15.6.2, prop-types@npm:^15.7.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:
@@ -6459,6 +6493,7 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "reach-alert-bug-yarn-v2@workspace:."
   dependencies:
+    "@reach/alert": ^0.7.4
     next: 9.2.1
     react: 16.12.0
     react-dom: 16.12.0
